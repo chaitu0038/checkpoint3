@@ -812,15 +812,10 @@ small i{
 }
 
 
-
-
-
-
-
 /* Contact html*/
 .contact{
     height: 300px;
-    width: 1360px;
+    width: 1340px;
     background: url(./media/hero/contact_hero.jpg)60%10% no-repeat;
 }
 .heading4{
@@ -830,6 +825,40 @@ small i{
     font-size: 48px;
 }
 .map{
-    padding: 72px;
     text-align: center;
+}
+.contact-section{
+    width: 1200px;
+}
+.contact-map{
+    padding: 72px;
+    width: 500px;
+}
+.contact-map h5{
+    font-size: 40px;
+    font-weight: 600;
+}
+.contact-form{
+    width: 610px;
+}
+.contact-span{
+    width: 500px;
+    display: flex;
+}
+.contact-a{
+    text-decoration: none;
+    padding: 20px 32px;
+    background-color: transparent;
+    border: 1px solid #FD656B;
+    font-size: 12px;
+    color: #FD656B;
+}
+.contact-ul h5{
+    font-size: 16px;
+    font-weight: 600;
+}
+.contact-ul span{
+    font-size: 16px;
+    font-weight: 600;
+    color: #B0BECC;
 }
