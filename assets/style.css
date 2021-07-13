@@ -260,6 +260,9 @@ hr{
     height: 300px;
     margin: 1.5%;
 }
+.box i{
+    padding: 32px;
+}
 
 .btn2{
     color: #FD656B;
@@ -527,7 +530,7 @@ small i{
 .case-image3{
     height: 480px;
     width: 400px;
-    background: url(./media/cases/completed_case_2.png)50%20% no-repeat;
+    background: url(./media/cases/completed_case_3.png)50%20% no-repeat;
     margin: 40px;
 }
 .case-image4{
@@ -582,33 +585,37 @@ small i{
     color: white;
     font-size: 48px;
 }
+.blog-section{
+    padding: 12px;
+    margin: 3px;
+}
 .blog-image1{
     height: 500px;
-    width: 700px;
+    width: 650px;
     background: url(./media/blog/blog_1.png)50%20% no-repeat;
     margin-left: 32px;
 }
 .blog-image2{
     height: 500px;
-    width: 700px;
+    width: 650px;
     background: url(./media/blog/blog_2.png)50%20% no-repeat;
     margin-left: 32px;
 }
 .blog-image3{
     height: 500px;
-    width: 700px;
+    width: 650px;;
     background: url(./media/blog/blog_3.png)50%20% no-repeat;
     margin-left: 32px;
 }
 .blog-image4{
     height: 500px;
-    width: 700px;
+    width: 650px;
     background: url(./media/blog/blog_4.png)50%20% no-repeat;
     margin-left: 32px;
 }
 .blog-image5{
     height: 500px;
-    width: 700px;
+    width: 650px;
     background: url(./media/blog/blog_5.png)50%20% no-repeat;
     margin-left: 32px;
 }
@@ -627,7 +634,7 @@ small i{
 }
 
 .blog-font{
-    width: 700px;
+    width: 650px;
     height: 200px;
     padding: 30px;
     margin: 32px;
@@ -646,21 +653,153 @@ small i{
     font-size: 16px;
     color: #B0BECC;
 }
+.blog-page{
+    width: 200px;
+    padding-left: 450px;
+}
+.blog-page li{
+    padding: 16px;
+    border: 1px solid #868C98;
+    background-color: #F9F9F9;
+}
 .blog-1{
     height: 800px;
     width: 700px;
+}
+.section-blog{
+    width: 550px;
+    padding-bottom: 930px;
 }
 .blog-form{
     display: flex;
     width: 500px;
 }
-
-
+.blog-form i{
+    padding: 16px 20px;
+    background-color: #FD656B;
+    font-size: 14px;
+    color: white;
+    margin-left: -34px;
+}
+.blog-a{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 24px 130px;
+    text-decoration: none;
+    color: #FD656B;
+    border: 1px solid #FD656B;
+}
+.search-box{
+    padding: 32px;
+    background-color: #F6F9FE;
+    height: 230px;
+    width: 400px;
+}
+.blog-category{
+    width: 400px;
+    padding: 32px;
+    background-color: #F6F9FE;
+}
+.blog-category ul{
+    font-size: 20px;
+    font-weight: 600;
+}
+.blog-category ul li{
+    font-size: 16px;
+    padding-left:2px;
+}
+.blog-hr{
+    width: 300px;
+    border: 1px solid #B0BECC;
+}
+.post-blog{
+    padding: 32px;
+    background-color: #F6F9FE;
+    width: 400px;
+}
+.post-blog h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+.post-li{
+    width: 300px;
+    padding-left: 12px;
+}
+.post-li h6{
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+.post-li span{
+    color: #868C98;
+    font-size: 12px;
+}
+.blog-tag{
+    width: 400px;
+    height: 300px;
+    background-color: #F6F9FE;
+    padding: 32px;
+}
+.blog-tag h5{
+    font-size: 20px;
+    font-size: 600;
+}
+.wrap{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrap li{
+    padding: 8px 14px;
+    border: 1px solid #B0BECC;
+    background-color: #FCFDFF;
+    font-size: 16px;
+}
+.blog-insta{
+    width: 400px;
+    height: 300px;
+    background-color: #F6F9FE;
+    padding: 32px;
+}
+.blog-insta h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+.wrap1{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog-letter{
+    padding: 32px;
+    background-color: #F6F9FE;
+    width: 400px;
+    height: 300px;
+}
+.blog-letter h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+.blog-news{
+    padding: 32px;
+}
+.blog-a1{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 24px 100px;
+    margin-left: 32px;
+    text-decoration: none;
+    color: #FD656B;
+    border: 1px solid #FD656B;
+}
+.buson-section{
+    background-color: #F6F9FE;
+}
 
 
 
 /* Service html*/
-.service{
+.service-service{
     height: 300px;
     width: 1360px;
     background: url(./media/hero/services_hero.jpg)60%10% no-repeat;
@@ -689,4 +828,8 @@ small i{
     margin-left: 570px;
     color: white;
     font-size: 48px;
+}
+.map{
+    padding: 72px;
+    text-align: center;
 }
